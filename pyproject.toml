@@ -1,0 +1,17 @@
+[tool.poetry]
+package-mode = false
+name = "basic-autogen-chatbot"
+version = "0.1.0"
+description = "A basic chatbot using autogen and groq"
+authors = ["Lennex Zinyando <brizdigital@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+groq = "^0.9.0"
+pyautogen = "^0.2.34"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
